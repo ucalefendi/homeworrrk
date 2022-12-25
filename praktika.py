@@ -18,12 +18,14 @@
 # output: 13,5,14, 10,1,22,1,19,3,18,9,16,20, 15,25,18,5,14,9,18,5,13,
 
 
-# text = input('metni daxil edin:   ')
+# text = input('metni daxil edin:   ').lower()
 # result=[]
 # for key in text:
-#     result += key
-# comperehension =[ord(key) for key in result ]   
-# print(comperehension)  
+#     if key.isalnum():
+#         result += str(ord(key) - 96)
+# # comperehension =[ord(key) for key in result ] 
+  
+# print(result)  
      
 #4cu tapsiriq
 # Istifadəçi input olaraq color: rgb(127, 255, 12) şəklində CSS rəngi girəcək. 
