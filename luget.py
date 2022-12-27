@@ -36,8 +36,7 @@
 #     'password': '12345',
 #     'birthday': '18-08-2000'
 # }
-data_input = {'firstname': Elcin, 'username': 'elchina',' birthday': '18-08-2000'}
-data_input2 = {'firstname': Elcin, 'lastname': 'Huseynov',' username': 'elcina''18-08-2000'}
+
     
 
 

@@ -20,5 +20,5 @@
 # name = 'c'
 # print(chr(ord(name) - 32))
 
-name = 'B'
-print(chr(ord(name)+32))
+# name = 'B'
+# print(chr(ord(name)+32))

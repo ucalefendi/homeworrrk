@@ -44,9 +44,9 @@
 # if eded%2:
 #     nov = 'tek'
 
-ededler = [1, 53, 22, 5, 6, 1, 3, 4, 75]
-# ['tek', 'tek', 'cut', 'tek', 'cut', 'tek', 'tek', 'cut', 'tek']
+# ededler = [1, 53, 22, 5, 6, 1, 3, 4, 75]
+# # ['tek', 'tek', 'cut', 'tek', 'cut', 'tek', 'tek', 'cut', 'tek']
 
-# novler = ['tek' if eded%2 else 'cut' for eded in ededler]
-novler = {eded:'tek' if eded%2 else 'cut' for eded in ededler}
-print(novler)
+# # novler = ['tek' if eded%2 else 'cut' for eded in ededler]
+# novler = {eded:'tek' if eded%2 else 'cut' for eded in ededler}
+# print(novler)

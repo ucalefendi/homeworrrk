@@ -156,7 +156,7 @@ shop = {
 # 7. Mağazada nə qədər məhsul olduğunu göstərin
 # 8. Məhsulların qiymətini 30% artırıb yeni qiymətləri mağazaya əlavə edin.
 
-brend = input('mehsulu girin:   ')
-for brend in shop :
-    print(shop.get(value))
+
+
+brand
 
