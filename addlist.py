@@ -2,7 +2,7 @@
 # del r[0]
 # print(r)
 
-#say=0
+# say=0
 # count=0.1
 # for i in range(0,31) :
 #     if i > 0:
@@ -54,5 +54,14 @@
 
 # result = { word:word.replace('ə','e') for word in words if 'ə' in word}
 # print(result)
+############################################################################################
 
+#1.
+# user_info = {
+#     'firstname': 'Elvin',
+#     'lastname': 'Huseynov',
+#     'username': 'elivin_h_ov',
+#     'password': '12345',
+#     'birthday': '19-08-1997'
+# }
 
