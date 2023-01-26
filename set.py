@@ -1,43 +1,43 @@
-baliqlar = {
-    'qelseme teneffusu', '2 kamerali urek', 'uzgec', 'korteks yoxdur',
-    'yumurtlama', 'dis yoxdur', '4 ayaq'
-}
+# baliqlar = {
+#     'qelseme teneffusu', '2 kamerali urek', 'uzgec', 'korteks yoxdur',
+#     'yumurtlama', 'dis yoxdur', '4 ayaq'
+# }
 
-cuculer = {
-    'toraks teneffusu', 'urek yoxdur', '6 ayaq',
-    'korteks vardir', 'beyin yoxdur', 'yumurtlama', 'metamorfoz', 
-    'dis yoxdur'
-}
+# cuculer = {
+#     'toraks teneffusu', 'urek yoxdur', '6 ayaq',
+#     'korteks vardir', 'beyin yoxdur', 'yumurtlama', 'metamorfoz', 
+#     'dis yoxdur'
+# }
 
-amfibialar = {
-    'qelseme teneffusu', 'agciyer teneffusu', 'uzgec', '4 ayaq', 
-    '2 kamerali urek', '3 kamerali urek', 'metamorfoz', 'kotex vardir',
-    'yumurtlama', 'dis yoxdur'
-}
+# amfibialar = {
+#     'qelseme teneffusu', 'agciyer teneffusu', 'uzgec', '4 ayaq', 
+#     '2 kamerali urek', '3 kamerali urek', 'metamorfoz', 'kotex vardir',
+#     'yumurtlama', 'dis yoxdur'
+# }
 
-surunenler = {
-    'agciyer teneffusu', '3 kamerali urek', '4 ayaq', 'korteks vardir', 'yumurtlama',
-    'dis var'
-}
+# surunenler = {
+#     'agciyer teneffusu', '3 kamerali urek', '4 ayaq', 'korteks vardir', 'yumurtlama',
+#     'dis var'
+# }
 
-quslar = {
-    'agciyer teneffusu', '4 kamerali urek', 'korteks vardir',
-    'yumurtlama', 'dis yoxdur'
-}
+# quslar = {
+#     'agciyer teneffusu', '4 kamerali urek', 'korteks vardir',
+#     'yumurtlama', 'dis yoxdur'
+# }
 
-memeliler = {
-    'agciyer teneffusu', '4 kamerali urek', '4 ayaq', 'korteks vardir',
-    'dogma', 'dis vardir'
-}
+# memeliler = {
+#     'agciyer teneffusu', '4 kamerali urek', '4 ayaq', 'korteks vardir',
+#     'dogma', 'dis vardir'
+# }
 
-sinifler = {
-    'baliqlar': baliqlar,
-    'cuculer': cuculer,
-    'amfibialar': amfibialar,
-    'surunenler': surunenler,
-    'quslar': quslar,
-    'memeliler': memeliler,
-}
+# sinifler = {
+#     'baliqlar': baliqlar,
+#     'cuculer': cuculer,
+#     'amfibialar': amfibialar,
+#     'surunenler': surunenler,
+#     'quslar': quslar,
+#     'memeliler': memeliler,
+# }
 
 # tapsiriqlar
 # 1. Quşların xüsusiyyətlərinə `"2 ayaq"` əlavə edin.
@@ -75,7 +75,7 @@ sinifler = {
 # 5. Balıqlar ilə heç bir ortaq cəhətə sahib olmayan sinifi tapan kod yazın
 
 # class_animal = [cuculer,amfibialar,surunenler,quslar,memeliler]
-# print(class_animal)
+# # print(class_animal)
 
 # for el in class_animal:
 #     if baliqlar.isdisjoint(el) == True:
@@ -84,13 +84,13 @@ sinifler = {
 #         print('her sinif ile ortaq ceheti var')
 
 
-#6
+# #6
 # dif1 = len(quslar.intersection(baliqlar))
 # dif2 = len(quslar.intersection(cuculer))
 # dif3 = len(quslar.intersection(amfibialar))
 # dif4 = len(quslar.intersection(surunenler))
 # dif5 = len(quslar.intersection(memeliler))
-# print(dif1,dif2,dif3,dif4,dif5)
+# print(list((dif1,dif2,dif3,dif4,dif5)))
 
 
 # 7. İstifadəçi input ilə sizə bəzi özəlliklər girəcək. Siz həmin özəlliklərə əsasən heyvanın hansı sinifə 
@@ -99,12 +99,25 @@ sinifler = {
 #         output: Bu heyvan quslar sinifine aid ola biler
 
 
+# butun_siniflerle_ortaq_ozelliyi_var = True
 
-text =input('ozellikleri daxil edin:  ')
+# for ad,sinif in sinifler.items():
+#     if sinif.isdisjoint(baliqlar):
+#         print(f'{ad} sinfinin baliqlar ile hec bir ortaq ozelliyi yoxdur')
+# #         butun_siniflerle_ortaq_ozelliyi_var = False
 
-def spes(text):
-    return text
-print(spes(text))    
+# ###########################################################
+
+
+# def reverse_words(str):
+#     return   ' '.join(reversed(str.split(' ')))
+
+
+# print(reverse_words("The greatest victory is that which requires no battle"))    
+
+
+       
+       
 
 
 

@@ -191,15 +191,15 @@ c = {5,7,11,4,4,16,3,13,12,2}
 d = {2,11,12}
 
 
-# adlar = {'ucal','camal','aydin','ismet','heyder'}
-# l= tuple(adlar)
-# betta = a.difference(b)
-alfa = a.intersection(b).intersection(c)
-betta = a.symmetric_difference(b)
-qamma = a.isdisjoint(b) #a b ile kesismenin olub olmadiqini yoxlayir ve geri donusu true ve ya falsedir
-teta = a.union(d)
-zeta = a.update(d)
-print(zeta)
+# # adlar = {'ucal','camal','aydin','ismet','heyder'}
+# # l= tuple(adlar)
+# # betta = a.difference(b)
+# alfa = a.intersection(b).intersection(c)
+# betta = a.symmetric_difference(b)
+# qamma = a.isdisjoint(b) #a b ile kesismenin olub olmadiqini yoxlayir ve geri donusu true ve ya falsedir
+# teta = a.union(d)
+# zeta = a.update(d)
+# print(zeta)
 
         
 

@@ -253,22 +253,22 @@
 # print('netice: \n '+ text.replace(source,target))
 
 
-metn = """Salyut 1 kosmosa göndərilən ilk kosmik stansiya idi.
-O, 1971-ci ilin aprelində Sovet İttifaqı tərəfindən orbitə buraxılıb və 1971-ci ilin oktyabr
-ayına qədər kosmosda qaldı. Kosmosda olduğu müddətdə onu ekipajlarla birlikdə iki kosmik gəmi 
-ziyarət etdi. Salyut 1-in məqsədi kosmik stansiyanın necə işlədiyini öyrənmək və sınaqdan keçirmək idi.
-İkinci məqsəd kosmosda uzun müddət qalmağın 
-insan orqanizminə necə təsir etdiyini öyrənmək idi. Onun bir sıra problemləri var idi,
-lakin ondan gələcək stansiyalara kömək edən çox şey öyrənildi."""
+# metn = """Salyut 1 kosmosa göndərilən ilk kosmik stansiya idi.
+# O, 1971-ci ilin aprelində Sovet İttifaqı tərəfindən orbitə buraxılıb və 1971-ci ilin oktyabr
+# ayına qədər kosmosda qaldı. Kosmosda olduğu müddətdə onu ekipajlarla birlikdə iki kosmik gəmi 
+# ziyarət etdi. Salyut 1-in məqsədi kosmik stansiyanın necə işlədiyini öyrənmək və sınaqdan keçirmək idi.
+# İkinci məqsəd kosmosda uzun müddət qalmağın 
+# insan orqanizminə necə təsir etdiyini öyrənmək idi. Onun bir sıra problemləri var idi,
+# lakin ondan gələcək stansiyalara kömək edən çox şey öyrənildi."""
 
-# 1. Yuxarıdakı mətndə bu sözlərin hamısının işlənib-işənmədiyini yoxlayın - `kömək, həyat, sınaq`
-# 2. Metnde işlənən ilk və son kosmos sözlərinin indeksini göstərin
-# 3. Metinin `Salyut` ilə başlayıb `ildi.` ilə bitdiyini təstdiqləyən kod yazın
+# # 1. Yuxarıdakı mətndə bu sözlərin hamısının işlənib-işənmədiyini yoxlayın - `kömək, həyat, sınaq`
+# # 2. Metnde işlənən ilk və son kosmos sözlərinin indeksini göstərin
+# # 3. Metinin `Salyut` ilə başlayıb `ildi.` ilə bitdiyini təstdiqləyən kod yazın
 
-if 'kömək' in metn and 'həyat' in metn and 'sınaq' in metn :
-    print('ok')
-else:
-    print('yoxdur')            
+# if 'kömək' in metn and 'həyat' in metn and 'sınaq' in metn :
+#     print('ok')
+# else:
+#     print('yoxdur')            
 
 
 

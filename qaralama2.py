@@ -33,7 +33,7 @@
 # print(l)
 
 
-def get_site_name(site,pref = 'www.',suff = '.com'):
-    return site.removeprefix(pref).removesuffix(suff)
+# def get_site_name(site,pref = 'www.',suff = '.com'):
+#     return site.removeprefix(pref).removesuffix(suff)
 
-print(get_site_name('www.kayzen.com'))
+# print(get_site_name('www.kayzen.com'))

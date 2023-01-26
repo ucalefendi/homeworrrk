@@ -45,21 +45,21 @@
 # Verilən məlumatlara əsasən hansı qardaş hansına nə qədər pul verməli olduğunu göstərən kod yazın
 # Fermamız və qiymətlər aşağıdakı kimidir:
 
-ferma = ('at','inek','inek','keci','qoyun','qoyun','qoyun','inek','at','toyuq','inek','inek','keci', 'at', 'keci', 'qoyun', 'inek', 'at', 'toyuq', 'inek', 'keci', 'keci', 'inek', 'toyuq', 'inek', 'toyuq', 'keci', 'toyuq', 'at', 'keci', 'at', 'keci', 'inek', 'qoyun', 'keci', 'at', 'qoyun', 'inek', 'inek', 'toyuq', 'at', 'at', 'toyuq', 'at', 'inek', 'toyuq', 'inek', 'toyuq', 'toyuq', 'qoyun')
-qiymetler = {'at': 1200, 'inek': 900, 'toyuq': 50, 'keci': 300, 'qoyun': 150}
+# ferma = ('at','inek','inek','keci','qoyun','qoyun','qoyun','inek','at','toyuq','inek','inek','keci', 'at', 'keci', 'qoyun', 'inek', 'at', 'toyuq', 'inek', 'keci', 'keci', 'inek', 'toyuq', 'inek', 'toyuq', 'keci', 'toyuq', 'at', 'keci', 'at', 'keci', 'inek', 'qoyun', 'keci', 'at', 'qoyun', 'inek', 'inek', 'toyuq', 'at', 'at', 'toyuq', 'at', 'inek', 'toyuq', 'inek', 'toyuq', 'toyuq', 'qoyun')
+# qiymetler = {'at': 1200, 'inek': 900, 'toyuq': 50, 'keci': 300, 'qoyun': 150}
 
-price_at = ferma.count("at")*qiymetler.get('at')
-price_inek =ferma.count('inek')*qiymetler.get('inek')
-price_toyuq = ferma.count('toyuq')*qiymetler.get('toyuq')
-price_keci = ferma.count('keci')*qiymetler.get('keci')
-price_qoyun = ferma.count('qoyun')*qiymetler.get('qoyun')
-fermanin_deyeri = price_at+price_inek+price_keci+price_qoyun+price_toyuq
+# price_at = ferma.count("at")*qiymetler.get('at')
+# price_inek =ferma.count('inek')*qiymetler.get('inek')
+# price_toyuq = ferma.count('toyuq')*qiymetler.get('toyuq')
+# price_keci = ferma.count('keci')*qiymetler.get('keci')
+# price_qoyun = ferma.count('qoyun')*qiymetler.get('qoyun')
+# fermanin_deyeri = price_at+price_inek+price_keci+price_qoyun+price_toyuq
 
-at_number = ferma.count("at")
-inek_number =ferma.count('inek')
-toyuq_number = ferma.count('toyuq')
-keci_number = ferma.count('keci')
-qoyun_number = ferma.count('qoyun')
+# at_number = ferma.count("at")
+# inek_number =ferma.count('inek')
+# toyuq_number = ferma.count('toyuq')
+# keci_number = ferma.count('keci')
+# qoyun_number = ferma.count('qoyun')
 
 
 

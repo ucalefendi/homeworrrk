@@ -51,21 +51,21 @@
 # #11 v = s/t
 
 # v = lambda s,t : s/t
- 
+ #######################################################################3
 
-physic = {
-    'F': lambda m,a : m * a,
-    'a': lambda v,t : v / t,
-    'S': lambda a,t : (a*(t**2))/2,
-    'E': lambda m,g,h : m * g * h,
-    'v':lambda s,t : s/t,
-    'w': lambda f,s : f * s,
-    'T': lambda f   : 1/f,
-    'Ek':lambda m,v : m * (v**2)/2,
-    'P' :lambda F,S : F/S,
-    'V' :lambda s,t : s/t 
+# physic = {
+#     'F': lambda m,a : m * a,
+#     'a': lambda v,t : v / t,
+#     'S': lambda a,t : (a*(t**2))/2,
+#     'E': lambda m,g,h : m * g * h,
+#     'v':lambda s,t : s/t,
+#     'w': lambda f,s : f * s,
+#     'T': lambda f   : 1/f,
+#     'Ek':lambda m,v : m * (v**2)/2,
+#     'P' :lambda F,S : F/S,
+#     'V' :lambda s,t : s/t 
 
-}
+# }
 
-print(physic.get('Ek')(0,0))
-print(physic.get('a')(10,2))
+# print(physic.get('Ek')(0,0))
+# print(physic.get('a')(10,2))
