@@ -20,6 +20,7 @@
 #     ('bilinmeyen bir xeta bas verdi' )   
 
 
+from timeit import timeit
 
 
 #              1
@@ -28,11 +29,13 @@
 #    13    15    17    19
 # 21    23    25    27    29
 # Calculate the sum of the numbers in the nth row of this triangle (starting at index 1) e.g.: (Input --> Output)
-# def row_sum_odd_numbers(n):
-#     if type(n)==int and n>0:
-#         return n**3
-#     else:
-#         return "Input a positive integer"
+def row_sum_odd_numbers(n):
+    if type(n)==int and n>0:
+        return n**3
+    else:
+        return "Input a positive integer"
+duration = timeit('row_sum_odd_numbers(8)')  
+print(duration)      
 
 # print(row_sum_odd_numbers(3))        
 

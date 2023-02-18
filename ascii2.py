@@ -54,3 +54,5 @@
 # else: 
 #     debt = (f2_price - f1_price)/2    
 #     print('boyuk qardas kicik qardasa {} manat pu; vermelidir'.format(debt))
+
+

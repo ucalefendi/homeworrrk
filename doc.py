@@ -67,16 +67,16 @@ a+
 # file.write('bu metni bura yazmaq cox vacibdr')
 
 
-file = open('menasiz.txt',mode = 'w+',encoding ='UTF-8')
-# file.write('menim adim Ucal\n')
-# file.write('men bu proqrami geleceyim\n ucun oyrenirem')
-text = 'men her gun fayton yrenirem\n,bu mene zovq verir.meqsedim budur'
+# file = open('menasiz.txt',mode = 'w+',encoding ='UTF-8')
+# # file.write('menim adim Ucal\n')
+# # file.write('men bu proqrami geleceyim\n ucun oyrenirem')
+# text = 'men her gun fayton yrenirem\n,bu mene zovq verir.meqsedim budur'
 # text2 = 'men ders oxuyuram'
 # file.read(0)
 # text3 = 'men solitonda isleyirem'
 
-file.read()
-file.write(text)
-text.upper()
+# file.read()
+# file.write(text)
+# text.upper()
 
 

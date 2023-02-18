@@ -40,14 +40,13 @@ from math import factorial as f
 # Output ⇒Arif
 
 # Output ⇒Hesen  
-# import random
-# nam = input('adlari girin:  ')
+# from random import shuffle
+# names = input('adlari daxil edin:  ').split(', ')
+# shuffle(names)
+# for n in names:
+#     input(n)
 
-# adlar = ['Hesen', 'Arif', 'Elnur', 'Kamal']
 
-# for nam in adlar:
-#     result = random.choice(adlar)
-# print(result)    
 
 
 #4
@@ -56,39 +55,43 @@ from math import factorial as f
 # Siz gizli ədədin aşağısında bir təxmin etdikdə program daha yuxarı, yuxarısında təxmin etdikdə isə daha aşağı desin.
 #  Ən sonda ədədi neçə səfərə tapdığınızı qeyd etsin.
 #  Əgər 10 üzərində təxmin etdikdən sonra tapıbsızsa məğlub sayılırsız, əks təqdirdə qalib.
-
-#BIRINCI USUL
 # from random import randint
-# count = 0
-# correct_answer = 10
-# correct_answer_attempt = 0
-# for n in randint(1,20):
-#     if randint(1,20) == n:
-#         count += 1
-#         if count > 10:
-#             print('qalib gelmek ucun cehdlerin sayi 10 dan kicik olmalidir')
-#     elif randint(1,20) < 10:
-#         print('gizlin eded hazirki ededden yuksekdir')
-#     elif randint(1,20) > 10:
-#         print('gizlin eded  tapilan ededden kicikdir') 
-#     else :
-#         print('meglub oldunuz')       
-       
-#IKINCI USUL    
-# if randint(1,20) == 10:
-#     print('qalib')
-# elif randint(1,20) < 10:
-#     print('gizlin eded hazirki ededden yuksekdir')
-# elif randint(1,20) > 10:
-#     print('gizlin eded  tapilan ededden kicikdir') 
-# else :
-#     print('meglub oldunuz')       
+
+# start: int = int(input('ilk ededi girin: '))
+# end: int = int(input('son ededi girin:  '))
+# number: int = randint(start,end)
+# attempt: int = 0
+# while True:
+#     attempt += 1
+#     prediction: int = int(input('ededi girin:   '))
+#     if prediction > number:
+#         print('asaqi ededi qeyd edin')
+#     elif prediction < number:
+#         print('yuxari ededi qeyd edin')  
+#     else:
+#         print('dogrudur') 
+#         if attempt > 10:
+#             print('uduzdunuz') 
+#         else:
+#             print('qalib geldiniz')      
+#         break  
+
+
+
+
+
+
+
+
+
+
+
 
 # 5. Yer kürəsi ilə Pluton arasındakı məsfə 588 milyon kilometrdir. Saatda 90 km/saat sürətlə, 
 # fasiləsiz hərəkət edən Niva maşını hansı tarixdə Yupiter planetinə nə zaman çatar?
 
 
-from datetime import datetime,timedelta
+# from datetime import datetime,timedelta
 
 # def timeline(s,v):
 #     time = s/v
@@ -110,4 +113,9 @@ from datetime import datetime,timedelta
 # data_date = datetime.striptime(data,pattern)
 # print(data_date)
 # errroorr verirrrrr
+
+
+
+
+
 

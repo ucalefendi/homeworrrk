@@ -49,16 +49,8 @@
 # print(list(yeni_liste))
 
 
-# def reverse_words(str):
-#     return ' '.join(str.split(', ')[::-1])
-
-# print(reverse_words("The greatest victory is that which requires no battle"))   
-# # 
-# result = ' '.join("The greatest victory is that which requires no battle".split(', ')[::-1]) 
-# print(result)
 
 def reverseWords(str):
     return ' '.join(reversed(str.split(' ')))
 
 print(reverseWords("The greatest victory is that which requires no battle"))  
-  

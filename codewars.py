@@ -28,53 +28,64 @@
 # 132189  -->  1 + 3 + 2 + 1 + 8 + 9 = 24  -->  2 + 4 = 6
 # 493193  -->  4 + 9 + 3 + 1 + 9 + 3 = 29  -->  2 + 9 = 11  -->  1 + 1 = 2
 
-# def digital_root(number):
-#     number = str(number)
-#     if  2 <= len(number):
-#         result = sum(number.split(','))
-#     return result 
 
-# print(digital_root(12))
-
-# number = 1254
-# num = str(number)
-# change = num.split()
-# for n in change:
-#     print(n)
 #3cu calismanin helli .bu hell tam hell deyil.
+
+from timeit import timeit
+def get_digits_sum(number):
+    digits = map(lambda x: int(x), str(number))
+    
+    return  sum(digits)
+duration = timeit('get_digits_sum(942)')   
+print(duration) 
+      
+   
+
+
+
+
+
 # def get_digits_sum(number):
 #     digits = map(lambda x: int(x), str(number))
 #     return  sum(digits)
-      
-# print(get_digits_sum(7598))    
+
 # #####################################
 # 
-#[0, 4, 6, 8, 8, 8, 5, 5, 7] =>  [1, 1, 1, 3, 2, 1] => [3, 1, 1, 1] => [1, 3] => [1, 1] => [2]
+ # [0, 4, 6, 8, 8, 8, 5, 5, 7] =>  [1, 1, 1, 3, 2, 1] => [3, 1, 1, 1] => [1, 3] => [1, 1] => [2]
+
+# from timeit import timeit
+# def get_count_list(numbers):
+#     result = []
+#     count = 1
+#     before = None
+#     for n in numbers:
+#         if before != None and before == n:
+#             count += 1
+#         elif before != None and before != n:
+#             result.append(count)   
+#             count = 1
+#         before = n
+#     result.append(count)    
+#     return result    
+# print(get_count_list([0, 4, 6, 8, 8, 8, 5, 5, 7]))      
 
 
-# numbers = [0, 4, 6, 8, 8, 8, 5, 5, 7]
-# r= []
-# c = []
+# def get_reducer(numbers):
+#     if len(numbers) == 1:
+#         return numbers[0]
+#     return get_reducer(get_count_list(numbers)) 
+
+# print(get_reducer(get_count_list([0, 4, 6, 8, 8, 8, 5, 5, 7])))
+
+# duration1 = timeit('get_reducer(get_count_list(numbers))')
+# print(duration1)
 
 
-# def set_reducer(new_list):
-#     for n in new_list:
-#         count_int = new_list.count(n)
-#         if count_int >= 2:
-#             r.append(count_int)
-#     return r 
-
-# print(set_reducer(numbers))
 
 
-# def set_reducer(new_list):
-#     for n in new_list:
-#         count_int = new_list.count(n)
-#         if count_int >= 2:
-#             r.append(count_int)
-#     return set_reducer()
 
-# print(set_reducer(numbers))
+
+
   
 
 ###teklif olunan helli.codewarsdan goturulen.
@@ -141,12 +152,8 @@
 #         if month in value:
 #             return key 
 
-import math
 
 
-number = 25
-result = math.pi
-print(result)
 
 
 

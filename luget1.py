@@ -136,27 +136,8 @@
 # orders.insert(0 , 'ball')
 # orders.append('headphones')
 # print(user)
-############################################
-# info = ["Resul", "Serifov", 35]
-#     # 1. Yuxarıdakı arrayı dinamik olaraq `["Resul Serifov", 25]` vəziyyətinə gətirin
-############################################
-# 4. Aşağıdakı datada məhsulların ad və qiymətləri qeyd olunmuşdur.
+
+
     
-shop = {
-    "t-shirt" : 59.00,
-    "jeans" : 75.00,
-    "sweatshirt" : 60.00, 
-    "shoe" : 124.99, 
-    "jacket" : 154.90
-}
-    
-# 5. Dictionary əsasən istifadəçi sizə məhsul adı girəcək. Bu məhsulun mağazada olan qiymətini
-#  göstərən proqram hazırlayın. Girilən məhsul mağaza da olmadığı halda "None" qaytarın.
-# 6. Mağazaya yeni məhsullar və qiymətlərini əlavə edin.
-# 7. Mağazada nə qədər məhsul olduğunu göstərin
-# 8. Məhsulların qiymətini 30% artırıb yeni qiymətləri mağazaya əlavə edin.
 
-
-
-brand
 
